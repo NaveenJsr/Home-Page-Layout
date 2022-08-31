@@ -1,0 +1,226 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{   
+    padding: 1%;
+    font-family: sans-serif;
+}
+
+/*------top section-------*/
+#top
+{
+    color: #000;
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    padding: 3px;
+    margin-left: 100px;
+}
+
+.list{
+    padding: 2%;
+    color: #000;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+}
+
+.list p{
+    margin-left: 5px;
+}
+
+.ndtv{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.right{
+    display: flex;
+    margin-left: 26%;
+    padding: 1%;
+}
+
+.navigation{
+    display: flex;
+    font-size: 14px;
+    margin-left: 225px;
+}
+
+.brand-name a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.nav-list{
+    margin-left: 70px;
+}
+.nav-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.nav-list li{
+    float: left;
+}
+
+.nav-list li a{
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 10px;
+}
+
+.search{
+    margin-left: 40px;
+}
+.search a{
+    text-decoration: none;
+    color: gray;
+}
+
+/*----banner section----*/
+
+#banner{
+    margin-top: 10px;
+    margin-top: 10px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background: url(/images/banner.jpg) no-repeat center / cover;
+}
+
+.banner-card{
+    margin-top: 80px;
+    margin-left: 250px;
+    background-color: #fff;
+    height: 400px;
+    width: 460px;
+}
+
+.title-1{
+    color: blue;
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+
+.card-dis{
+    padding: 1%;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.title-2{
+    margin-top: 5px;
+    font-size: 15px;
+    color: red;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+
+.banner-card p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+}
+
+.card-bullet{
+    margin-top: 10px;
+}
+.card-bullet a{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(137, 6, 6);
+    text-decoration: none;
+    padding: 2%;
+}
+
+.card-bullet a i{
+    padding: 2%;
+}
+.card-button{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-button button{
+    height: 40px;
+    width: 200px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background:rgb(237, 152, 240);
+}
+
+#about{
+    height: auto;
+    width: 100%;
+
+}
+
+.about-container{
+    width: 75%;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #000;
+}
+
+.about-container hr{
+    color: blue;
+}
+.title{
+    font-size: 20px;
+    color: cornflowerblue;
+    display: flex;
+}
+
+.title span h1{
+    padding: 0 20px;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+.template img{
+    margin-top: 50px;
+}
+
+.content{
+    margin-top: 20px;
+
+}
+.content p{
+    margin-top: 10px;
+    color: #000;
+    font-size: 12px;
+}
+
+.content h3{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.feature{
+    padding: 1%;
+}
